@@ -6,4 +6,5 @@
 
     <!--мой выбранный цвет-->
     <color name="wegreetyou_text_color">#3f9076</color>
+    <color name="background_textView">#c9f2a7</color>
 </resources>

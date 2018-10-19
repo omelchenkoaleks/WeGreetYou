@@ -9,14 +9,26 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/we_greet_you_tv_id"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="@color/background_textView"
+        android:gravity="center"
         android:text="@string/we_greet_you_textview"
+        android:textAlignment="center"
         android:textColor="@color/wegreetyou_text_color"
         android:textSize="@dimen/wegreetyou_textsize"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/my_fhoto_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/background_textView"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/oa" />
 
 </LinearLayout>
